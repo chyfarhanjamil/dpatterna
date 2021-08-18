@@ -3,9 +3,9 @@
 
   let selected = "Choco Blast";
   let menu = ["Choco Blast", "Sweety Strawberry", "Buttery Butterscotch"];
-
+  let icecream;
   $: icecream = getIcecream(selected);
-
+  let src;
   $: src = `./images/icecream-factory/${icecream}.png`;
 
 </script>
